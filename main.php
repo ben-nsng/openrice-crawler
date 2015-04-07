@@ -78,7 +78,7 @@ function curl_execute($curl) {
  *
  * * * * * * * */
 
-include('ganon.php');
+include('lib/ganon.php');
 define('BASE_DIR', __DIR__);
 
 $hostname = {{ mask }};
